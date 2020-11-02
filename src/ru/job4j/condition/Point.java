@@ -1,4 +1,4 @@
-package ru.job4j.calculator.condition;
+package ru.job4j.condition;
 
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;

@@ -2,6 +2,7 @@ package ru.job4j.calculator.condition;
 
 import org.junit.Test;
 import org.junit.Assert;
+import ru.job4j.calculator.SqArea;
 
 public class SqAreaTest {
 
