@@ -11,4 +11,16 @@ public class MaxTest {
         int result = Max.max(1, 2);
         assertThat(result, is(2));
     }
+
+    @Test
+    public void whenMax2To1Then2() {
+        int result = Max.max(2, 1);
+        assertThat(result, is(2));
+    }
+
+    @Test
+    public void whenMax2To2Then2() {
+        int result = Max.max(2, 2);
+        assertThat(result, is(2));
+    }
 }
