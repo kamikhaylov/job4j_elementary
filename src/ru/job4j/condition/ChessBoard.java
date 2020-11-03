@@ -7,7 +7,6 @@ public class ChessBoard {
         int rsl = 0;
         if (abs(x1 - x2) == abs(y1 - y2)) {
             rsl = abs(x2 - x1);
-            rsl = rsl == 0 ? abs(y2 - y1) : rsl;
         }
         return rsl;
     }
