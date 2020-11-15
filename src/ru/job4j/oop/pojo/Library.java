@@ -16,7 +16,7 @@ public class Library {
         permutationBooks(books, 0, 3);
         System.out.println("Вывод списка книг после перестановки: ");
         printBooks(books);
-        System.out.println("Вывод книг с название \"Clean code\"");
+        System.out.println("Вывод книг с названием \"Clean code\"");
         printBooks(books, "Clean code");
     }
 
