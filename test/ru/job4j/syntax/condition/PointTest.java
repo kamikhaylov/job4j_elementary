@@ -34,7 +34,7 @@ public class PointTest {
     }
 
     @Test
-    public void when112to234then3() {
+    public void when123to345then3() {
         Point a = new Point(1, 2, 3);
         Point b = new Point(3, 4, 5);
         int expected = 3;
