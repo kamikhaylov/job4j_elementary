@@ -12,4 +12,15 @@ public class Shop {
         }
         return new Product(name, price);
     }
+
+    public static int indexOfNull(Product[] products) {
+        int result = -1;
+        for (int i = 0; i < products.length; i++) {
+            if (products[i] == null) {
+                result = i;
+                break;
+            }
+        }
+        return result;
+    }
 }
