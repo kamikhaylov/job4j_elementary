@@ -7,6 +7,7 @@ public class Matches {
         Scanner input = new Scanner(System.in);
         boolean run = true;
         int gamer = 1;
+        int winGamer = 1;
         int total = 11;
         while (run) {
             if (gamer == 1) {
@@ -21,19 +22,16 @@ public class Matches {
             }
             total -= select;
             if (total <= 0) {
-                if (gamer == 1) {
-                    System.out.println("Выйграл первый игрок");
-                } else {
-                    System.out.println("Выйграл второй игрок");
+                winGamer = gamer;
+                run = false;
+                if (total < 0) {
+                    total = 0;
                 }
-                break;
             }
             System.out.println("Осталось спичек: " + total);
-            if (gamer == 1) {
-                gamer = 2;
-            } else {
-                gamer = 1;
-            }
+            gamer = gamer == 1 ? 2 : 1;
         }
+        String winPrint = winGamer == 1 ? "первый" : "второй";
+        System.out.println("Выйграл " + winPrint + " игрок!");
     }
 }
