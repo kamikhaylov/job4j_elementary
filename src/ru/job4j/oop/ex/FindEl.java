@@ -3,10 +3,9 @@ package ru.job4j.oop.ex;
 public class FindEl {
     public static int indexOf(String[] value, String key) throws ElementNotFoundException {
         int rsl = -1;
-        /* for-each */
         for (int i = 0; i < value.length; i++) {
             String element = value[i];
-            if (element == key) {
+            if (element.equals(key)) {
                 rsl = i;
                 break;
             }
