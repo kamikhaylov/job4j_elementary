@@ -20,7 +20,7 @@ public class User implements Comparable<User> {
         if (name.equals(o.name)) {
             return Integer.compare(age, o.age);
         }
-        return new SortByNameUser().compare(this, o);
+        return (new SortByNameUser().compare(this, o));
     }
 
     @Override
