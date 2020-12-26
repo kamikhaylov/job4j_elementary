@@ -2,6 +2,9 @@ package ru.job4j.collection.map;
 
 public class FreezeStr {
     public static boolean eq(String left, String right) {
+        if (left.length() != right.length()) {
+            return false;
+        }
         for (String s : left.split("")) {
             right = right.replaceFirst(s, "");
         }
