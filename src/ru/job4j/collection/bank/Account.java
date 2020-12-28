@@ -2,7 +2,17 @@ package ru.job4j.collection.bank;
 
 import java.util.Objects;
 
+/**
+ * Класс описывает модель банковского счата.
+ *  @author KONSTANTIN MIKHAYLOV
+ *  @version 1.0
+ */
 public class Account {
+    /**
+     * Эта модель содержит поля:
+     * @param requisite реквизит счета
+     * @param balance баланс счета
+     */
     private String requisite;
     private double balance;
 

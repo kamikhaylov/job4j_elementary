@@ -2,7 +2,17 @@ package ru.job4j.collection.bank;
 
 import java.util.Objects;
 
+/**
+ *  Класс описывает модель пользователя банка.
+ *  @author KONSTANTIN MIKHAYLOV
+ *  @version 1.0
+ */
 public class User {
+    /**
+     *  Эта модель содержит поля:
+     *  @param passport номер паспорта
+     *  @param username ФИО
+     */
     private String passport;
     private String username;
 
