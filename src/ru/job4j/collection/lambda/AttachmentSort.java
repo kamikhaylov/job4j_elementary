@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import static java.lang.Math.min;
-
 public class AttachmentSort {
     public static void main(String[] args) {
         List<Attachment> attachments = Arrays.asList(
@@ -23,19 +21,10 @@ public class AttachmentSort {
         };
         attachments.sort(comparator);
         System.out.println(attachments);
-        Comparator<Attachment> comparatorName =  new Comparator<Attachment>() {
+        Comparator<Attachment> comparatorName = new Comparator<Attachment>() {
             @Override
             public int compare(Attachment left, Attachment right) {
-                int leftLenght = left.getName().length();
-                int ringtLenght = right.getName().length();
-                int minLenght = min(leftLenght, ringtLenght);
-                for (int i = 0; i < minLenght; i++) {
-                    int compare = Character.compare(left.getName().charAt(i), right.getName().charAt(i));
-                    if (compare != 0) {
-                        return compare;
-                    }
-                }
-                return Integer.compare(leftLenght, ringtLenght);
+                return left.getName().compareTo(right.getName());
             }
         };
         attachments.sort(comparatorName);
