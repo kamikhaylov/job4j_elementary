@@ -13,8 +13,7 @@ public class StreamInt {
         numbers.add(2);
         numbers.add(-3);
         numbers.add(3);
-        List<Integer> numbersPositive = numbers
-                .stream()
+        List<Integer> numbersPositive = numbers.stream()
                 .filter(number -> number > 0)
                 .collect(Collectors.toList());
         numbersPositive.forEach(System.out::println);
