@@ -11,3 +11,27 @@ public class School {
                 .collect(Collectors.toList());
     }
 }
+
+class FilterA10 implements Predicate<Student> {
+    @Override
+    public boolean test(Student student) {
+        return student.getScore() >= 70
+                && student.getScore() <= 100;
+    }
+}
+
+class FilterB10 implements Predicate<Student> {
+    @Override
+    public boolean test(Student student) {
+        return student.getScore() >= 50
+                && student.getScore() < 70;
+    }
+}
+
+class FilterV10 implements Predicate<Student> {
+    @Override
+    public boolean test(Student student) {
+        return student.getScore() >= 0
+                && student.getScore() < 50;
+    }
+}
