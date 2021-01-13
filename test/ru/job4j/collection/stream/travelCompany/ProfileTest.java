@@ -21,7 +21,7 @@ public class ProfileTest   {
 
     @Test
     public void whenCollectProfile() {
-        Profile pr = new Profile();
+        Profiles pr = new Profiles();
         List<Address> rsl = pr.collect(profiles);
         List<Address> expected = new ArrayList<>();
         expected.add(new Address("Samara","Metallurgov",25, 10));
