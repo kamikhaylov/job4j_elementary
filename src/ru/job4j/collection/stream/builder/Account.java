@@ -1,7 +1,5 @@
 package ru.job4j.collection.stream.builder;
 
-import java.util.Date;
-
 public class Account {
     private String login;
     private String password;
