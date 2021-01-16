@@ -17,7 +17,7 @@ public class ThenComparingMethodTest {
         ThenComparingMethod.User user4 = new ThenComparingMethod.User("B", 11);
         ThenComparingMethod.User user5 = new ThenComparingMethod.User("A", 12);
         List<ThenComparingMethod.User> input = Arrays.asList(user1, user2, user3, user4, user5);
-        List<ThenComparingMethod.User> expect = Arrays.asList(user3, user5, user2, user4, user1);
+        List<ThenComparingMethod.User> expect = List.of(user3, user5, user2, user4, user1);
         input.sort(ThenComparingMethod.thenComparing());
         assertEquals(expect, input);
     }
