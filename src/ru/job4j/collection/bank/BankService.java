@@ -52,9 +52,7 @@ public class BankService {
          return users.keySet()
                  .stream()
                  .filter(s -> s.getPassport().equals(passport))
-                 .map(Optional::of)
-                 .findFirst()
-                 .orElse(Optional.empty());
+                 .findFirst();
     }
 
     /**
