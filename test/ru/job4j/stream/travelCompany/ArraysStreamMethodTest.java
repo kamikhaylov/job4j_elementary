@@ -1,6 +1,8 @@
 package ru.job4j.stream.travelCompany;
 
 import org.junit.Test;
+import ru.job4j.stream.ArraysStreamMethod;
+
 import static org.junit.Assert.*;
 
 public class ArraysStreamMethodTest {
