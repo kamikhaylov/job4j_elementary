@@ -1,13 +1,10 @@
 package ru.job4j.syntax.loop;
 
 import org.junit.Test;
-import ru.job4j.syntax.loop.PrimeNumber;
-
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
 
 public class PrimeNumberTest {
-
     @Test
     public void when5() {
         int count = PrimeNumber.calc(5);

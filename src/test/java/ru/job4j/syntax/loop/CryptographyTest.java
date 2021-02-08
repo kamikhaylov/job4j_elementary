@@ -1,10 +1,8 @@
 package ru.job4j.syntax.loop;
 
 import org.junit.Test;
-import ru.job4j.syntax.loop.Cryptography;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CryptographyTest {
     @Test

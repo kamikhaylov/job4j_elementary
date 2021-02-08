@@ -2,8 +2,6 @@ package ru.job4j.syntax.array;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.syntax.array.EvenVsOdd;
-
 import static org.junit.Assert.*;
 
 public class EvenVsOddTest {

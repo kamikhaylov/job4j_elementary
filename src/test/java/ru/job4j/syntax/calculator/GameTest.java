@@ -1,10 +1,8 @@
 package ru.job4j.syntax.calculator;
 
 import org.junit.Test;
-import ru.job4j.syntax.calculator.Game;
-
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
 
 public class GameTest {
     @Test

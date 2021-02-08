@@ -13,5 +13,4 @@ public class FunctionPowTest {
         Assert.assertEquals(4, FunctionPow.calculate(2), 0.01);
         assertEquals(9, FunctionPow.calculate(3), 0.01);
     }
-
 }

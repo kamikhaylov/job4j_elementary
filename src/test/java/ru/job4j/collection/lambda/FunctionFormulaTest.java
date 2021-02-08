@@ -14,5 +14,4 @@ public class FunctionFormulaTest {
         assertEquals(4, FunctionFormula.calculate(1), 0.01);
         assertEquals(9, FunctionFormula.calculate(2), 0.01);
     }
-
 }

@@ -2,12 +2,9 @@ package ru.job4j.stream;
 
 import org.junit.Before;
 import org.junit.Test;
-import ru.job4j.stream.Matrix;
-
 import java.util.*;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class MatrixTest {
     private Integer[][] matrix;

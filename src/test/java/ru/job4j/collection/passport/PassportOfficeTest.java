@@ -1,12 +1,8 @@
 package ru.job4j.collection.passport;
 
-
 import org.junit.Test;
-import ru.job4j.collection.passport.Citizen;
-import ru.job4j.collection.passport.PassportOffice;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class PassportOfficeTest {
 

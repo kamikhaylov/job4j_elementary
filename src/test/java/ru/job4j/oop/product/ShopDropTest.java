@@ -1,11 +1,8 @@
 package ru.job4j.oop.product;
 
 import org.junit.Test;
-import ru.job4j.oop.product.Product;
-import ru.job4j.oop.product.ShopDrop;
-
 import static org.hamcrest.Matchers.nullValue;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
 public class ShopDropTest {

@@ -1,13 +1,10 @@
 package ru.job4j.syntax.array;
 
 import org.junit.Test;
-import ru.job4j.syntax.array.PushTheNumbers;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class PushTheNumbersTest {
-
     @Test
     public void testWithArray5To5() {
         int[][] array = {

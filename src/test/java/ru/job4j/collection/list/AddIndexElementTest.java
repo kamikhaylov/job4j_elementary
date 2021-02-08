@@ -1,13 +1,10 @@
 package ru.job4j.collection.list;
 
 import org.junit.Test;
-import ru.job4j.collection.list.AddIndexElement;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class AddIndexElementTest {
     @Test

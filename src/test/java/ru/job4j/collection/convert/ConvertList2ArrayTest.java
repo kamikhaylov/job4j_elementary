@@ -1,12 +1,9 @@
 package ru.job4j.collection.convert;
 
 import org.junit.Test;
-import ru.job4j.collection.convert.ConvertList2Array;
-
 import java.util.Arrays;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ConvertList2ArrayTest {
     @Test

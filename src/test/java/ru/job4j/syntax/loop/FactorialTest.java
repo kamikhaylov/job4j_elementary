@@ -1,10 +1,8 @@
 package ru.job4j.syntax.loop;
 
+import static org.hamcrest.MatcherAssert.assertThat;
 import org.hamcrest.Matchers;
 import org.junit.Test;
-import ru.job4j.syntax.loop.Factorial;
-
-import static org.junit.Assert.assertThat;
 
 public class FactorialTest {
     @Test

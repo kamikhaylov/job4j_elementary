@@ -1,11 +1,8 @@
 package ru.job4j.syntax.condition;
 
-
-import static org.junit.Assert.assertThat;
 import static org.hamcrest.Matchers.is;
-
 import org.junit.Test;
-import ru.job4j.syntax.condition.ThreeMax;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ThreeMaxTest {
 

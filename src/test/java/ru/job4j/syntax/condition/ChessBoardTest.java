@@ -1,10 +1,8 @@
 package ru.job4j.syntax.condition;
 
 import org.junit.Test;
-import ru.job4j.syntax.condition.ChessBoard;
-
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
 
 public class ChessBoardTest {
     @Test

@@ -1,10 +1,8 @@
 package ru.job4j.syntax.loop;
 
 import org.junit.Test;
-import ru.job4j.syntax.loop.Counter;
-
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CounterTest {
 

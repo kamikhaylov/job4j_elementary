@@ -16,5 +16,4 @@ public class ReduceMethodOneArgumentTest {
         assertEquals(Integer.valueOf(6), ReduceMethodOneArgument.reduce(List.of(1, 2, 3)));
         assertEquals(Integer.valueOf(24), ReduceMethodOneArgument.reduce(List.of(1, 2, 3, 4)));
     }
-
 }

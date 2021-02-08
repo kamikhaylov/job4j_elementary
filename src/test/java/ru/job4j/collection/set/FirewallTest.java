@@ -1,12 +1,9 @@
 package ru.job4j.collection.set;
 
 import org.junit.Test;
-import ru.job4j.collection.set.Firewall;
-
 import java.util.Set;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class FirewallTest {
     @Test

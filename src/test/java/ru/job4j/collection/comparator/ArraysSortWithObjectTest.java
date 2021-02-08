@@ -2,7 +2,6 @@ package ru.job4j.collection.comparator;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.collection.comparator.ArraysSortWithObject;
 
 public class ArraysSortWithObjectTest {
 

@@ -1,12 +1,10 @@
 package ru.job4j.collection.departments;
 
 import org.junit.Test;
-import ru.job4j.collection.departments.Departments;
-
 import java.util.Arrays;
 import java.util.List;
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class DepartmentsTest {
     @Test

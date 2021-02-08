@@ -1,13 +1,10 @@
 package ru.job4j.stream.studentLevel;
-import org.junit.Test;
-import ru.job4j.stream.studentLevel.Student;
-import ru.job4j.stream.studentLevel.StudentLevel;
 
+import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
-
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class StudentLevelTest {
 

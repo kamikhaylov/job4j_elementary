@@ -1,9 +1,7 @@
 package ru.job4j.syntax.array;
 
 import org.junit.Test;
-import ru.job4j.syntax.array.Cinema;
-
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.nullValue;
 import static org.hamcrest.core.Is.is;
 

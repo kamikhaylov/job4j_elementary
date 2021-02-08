@@ -1,13 +1,10 @@
 package ru.job4j.collection.unique;
 
 import org.junit.Test;
-import ru.job4j.collection.unique.UniqueText;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class UniqueTextTest {
-
     @Test
     public void isEquals() {
         String origin = "My cat eats a mouse and milk";

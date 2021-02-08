@@ -2,8 +2,6 @@ package ru.job4j.syntax.array;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.syntax.array.OrArray;
-
 import static org.junit.Assert.*;
 
 public class OrArrayTest {

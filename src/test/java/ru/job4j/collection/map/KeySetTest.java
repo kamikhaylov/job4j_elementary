@@ -1,13 +1,10 @@
 package ru.job4j.collection.map;
 
 import org.junit.Test;
-import ru.job4j.collection.map.KeySet;
-
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class KeySetTest {
     @Test

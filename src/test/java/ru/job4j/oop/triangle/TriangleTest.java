@@ -1,11 +1,9 @@
 package ru.job4j.oop.triangle;
 
 import org.junit.Test;
-import ru.job4j.oop.triangle.Triangle;
 import ru.job4j.syntax.condition.Point;
-
 import static org.hamcrest.Matchers.closeTo;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class TriangleTest {
     @Test

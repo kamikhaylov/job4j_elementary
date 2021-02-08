@@ -16,5 +16,4 @@ public class NumberMapTest {
         List<Integer> expect = List.of(4, 9, 16);
         Assert.assertEquals(expect, NumberMap.map(input));
     }
-
 }

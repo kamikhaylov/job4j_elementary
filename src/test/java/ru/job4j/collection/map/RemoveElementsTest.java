@@ -1,15 +1,11 @@
 package ru.job4j.collection.map;
 
 import org.junit.Test;
-import ru.job4j.collection.map.RemoveElements;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
-
+import static org.hamcrest.MatcherAssert.assertThat;
 import static ru.job4j.collection.map.RemoveElements.User;
 
 public class RemoveElementsTest {

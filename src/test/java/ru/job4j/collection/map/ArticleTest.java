@@ -1,13 +1,10 @@
 package ru.job4j.collection.map;
 
 import org.junit.Test;
-import ru.job4j.collection.map.Article;
-
 import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ArticleTest {
-
     @Test
     public void whenLineGnrTrue() {
         assertThat(

@@ -21,5 +21,4 @@ public class ConsumerAndThenTest {
         Assert.assertEquals(expect, buffer.toString());
         System.setOut(out);
     }
-
 }

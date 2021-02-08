@@ -1,8 +1,6 @@
 package ru.job4j.syntax.array;
 
 import org.junit.Test;
-import ru.job4j.syntax.array.RightShift;
-
 import static org.junit.Assert.*;
 
 public class RightShiftTest {

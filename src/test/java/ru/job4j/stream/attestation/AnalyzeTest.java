@@ -1,17 +1,11 @@
 package ru.job4j.stream.attestation;
 
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 import org.junit.Test;
-import ru.job4j.stream.attestation.Analyze;
-import ru.job4j.stream.attestation.Pupil;
-import ru.job4j.stream.attestation.Subject;
-import ru.job4j.stream.attestation.Tuple;
-
 import java.util.List;
 
 public class AnalyzeTest {
-
     @Test
     public void whenSinglePupil() {
         double average = Analyze.averageScore(

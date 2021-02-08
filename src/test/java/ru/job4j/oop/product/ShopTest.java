@@ -1,11 +1,8 @@
 package ru.job4j.oop.product;
 
 import org.junit.Test;
-import ru.job4j.oop.product.Product;
-import ru.job4j.oop.product.Shop;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ShopTest {
     @Test

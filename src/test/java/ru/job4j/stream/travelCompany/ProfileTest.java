@@ -2,15 +2,10 @@ package ru.job4j.stream.travelCompany;
 
 import org.junit.Before;
 import org.junit.Test;
-import ru.job4j.stream.travelCompany.Address;
-import ru.job4j.stream.travelCompany.Profile;
-import ru.job4j.stream.travelCompany.Profiles;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ProfileTest   {
     private List<Profile> profiles = new ArrayList<>();

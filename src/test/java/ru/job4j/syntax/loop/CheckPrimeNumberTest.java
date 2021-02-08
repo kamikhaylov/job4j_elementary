@@ -1,10 +1,8 @@
 package ru.job4j.syntax.loop;
 
 import org.junit.Test;
-import ru.job4j.syntax.loop.CheckPrimeNumber;
-
 import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CheckPrimeNumberTest {
     @Test

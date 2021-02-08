@@ -2,10 +2,8 @@ package ru.job4j.syntax.condition;
 
 import org.junit.Test;
 import org.junit.Assert;
-import ru.job4j.syntax.condition.Point;
 
 public class PointTest {
-
     @Test
     public void when00to20then2() {
         Point a = new Point(0, 0);

@@ -1,19 +1,13 @@
 package ru.job4j.collection.search04;
 
 import org.junit.Test;
-import ru.job4j.collection.search04.Account;
-import ru.job4j.collection.search04.NotifyAccount;
-
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class NotifyAccountTest {
-
     @Test
     public void sent() {
         List<Account> accounts = Arrays.asList(
